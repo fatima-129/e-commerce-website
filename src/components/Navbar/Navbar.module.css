@@ -1,0 +1,19 @@
+.container {
+  width: 100vw;
+  height: 10vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: var(--bg);
+  padding-inline: var(--px);
+  color: white;
+}
+.container > h1 {
+  font-weight: 900;
+}
+
+.container > ul {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}

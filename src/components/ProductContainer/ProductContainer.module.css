@@ -1,0 +1,8 @@
+.container {
+  width: 100vw;
+  height: 65vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-inline: var(--px);
+}
