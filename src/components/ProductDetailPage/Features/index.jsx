@@ -1,7 +1,34 @@
 import React from "react";
+import Image2 from "..//..//../assets/product-xx99-mark-two-headphones/desktop/image-gallery-2.jpg";
+import Image3 from "..//..//../assets/product-xx99-mark-two-headphones/desktop/image-gallery-3.jpg";
+import Image1 from "..//..//../assets/shared/desktop/image-best-gear.jpg";
+
 import s from "./Featues.module.css";
 
 const Featues = () => {
+  return (
+    <div className={s.top_container}>
+      <FeatureDescription />
+      <FeatureImages />
+    </div>
+  );
+};
+
+const FeatureImages = () => {
+  return (
+    <div className={s.images_container}>
+      <div className={s.images_container_left}>
+        <img src={Image1} alt="customer" />
+        <img src={Image2} alt="table" />
+      </div>
+      <div className={s.images_container_right}>
+        <img src={Image3} alt="headphone" />
+      </div>
+    </div>
+  );
+};
+
+const FeatureDescription = () => {
   return (
     <div className={s.container}>
       <div className={s.features_container}>

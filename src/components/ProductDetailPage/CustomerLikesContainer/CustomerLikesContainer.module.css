@@ -1,0 +1,10 @@
+.container {
+  width: 100vw;
+  height: 65vh;
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  padding-bottom: 30px;
+  justify-content: space-between;
+  padding-inline: var(--px);
+}
